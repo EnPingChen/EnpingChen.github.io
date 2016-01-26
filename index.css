@@ -1,5 +1,5 @@
 body {
-	font-family: verdana,Times New Roman, 新細明體, 微軟正黑體;
+	font-family: 'cwTeXFangSong', serif;
 }
 #heading{
 	top:0px;
@@ -14,7 +14,7 @@ body {
 	background-attachment: float;
 }
 #body{
-	padding:70px;
+	/*padding:70px;*/
 	position: absolute;
 	color:white;
 	top:200px;
@@ -24,5 +24,22 @@ body {
 	background: #9b59b6;
 }
 img{
-	float: left;
+	width: 100%;
+	height: 1000px;
+}
+.content{
+	padding: 100px;
+}
+h1{
+	font-size: 80px;
+}
+ul{
+	font-size: 40px;
+}
+li.about{
+	padding:10px;
+}
+h3 {
+	word-spacing: 20px;
+	font-size: 30px;
 }
